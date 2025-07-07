@@ -1,0 +1,197 @@
+ 📘 Udemy Course Data Analysis – Narrative Report
+
+This report explains, in clear and engaging language, the full journey of exploring and analyzing the Udemy dataset. It highlights what was done, why it was done, and what insights were uncovered—without showing the code (which remains in the notebook).
+
+
+------------------------------------------------------------
+
+
+ Questions to Solve
+
++ Course Title
+	- What is the most frequent words in course title
+	- Longest/Shortest course title
+	- How can we build recommendation systems via title using similarity
+	- Most famous courses by number of subscribers
+
++ Subjects/Category
+	- What is the distribution of subjects
+	- How many courses per subject
+	- Distribution of subjects per year
+	- How many people purchase a particular subject
+	- Which subject is the most popular
+
++ Published Year
+	- Number of courses per year
+	- Which year has the highest number of courses
+	- What is the trend of courses per year
+
++ Levels
+	- How many levels do we have
+	- What is the distribution of courses per levels
+	- Which subject have the highest levels
+	- How many subscribers per levels
+	- How many courses per levels
+
++ Duration of Course
+	- Which courses have the highest duration (paid or not)
+	- Which courses have higher duration
+	- Duration vs number of subscribers
+
++ Subscribers
+	- Which course have the highest number of subscribers
+	- Average number of subscribers
+	- Number of subscribers per Subject
+	- Number of subscribers per year
+
++ Price
+	- What is the average price of a course
+	- What is the min/max price
+	- How much does Udemy earn
+	- The most profitable courses
+
++ Correlation Questions
+	- Does number of subscribers depend on
+	- number of reviews
+	- price
+	- number of lectures
+	- content duration
+
+📦 Imported essential libraries like Pandas, NumPy, Seaborn, and Matplotlib for data handling and visualization.
+
+📂 Loaded the Udemy dataset into a DataFrame to begin analysis.
+
+ EDA on Subject/Category
+
++ Subjects/Category
+	- What is the distribution of subjects
+	- How many courses per subject
+	- Distribution of subjects per year
+	- How many people purchase a particular subject
+	- Which subject is the most popular
+
+📊 Visualized the distribution of values in a specific column, such as subjects or course levels.
+
+ EDA on Subscribers
++ Subscribers
+	- Which course have the highest number of subscribers
+	- Average number of subscribers
+	- Number of subscribers per Subject
+	- Number of subscribers per year
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+ EDA on Levels
+
++ Levels
+	- How many levels do we have
+	- What is the distribution of courses per levels
+	- Which subject have the highest levels
+	- How many subscribers per levels
+	- How many courses per levels
+
+
+📊 Visualized the distribution of values in a specific column, such as subjects or course levels.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📊 Visualized the distribution of values in a specific column, such as subjects or course levels.
+
+ EDA on Price
++ Price
+	- What is the average price of a course
+	- What is the min/max price
+	- How much does Udemy earn
+	- The most profitable courses
+
+🧹 Cleaned and standardized data, such as converting 'Free' and 'TRUE' values to numerical values for consistency.
+
+📊 Visualized the distribution of values in a specific column, such as subjects or course levels.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+ Correlation Question
++ Correlation Questions
+	- Does number of subscribers depend on
+	- number of reviews
+	- price
+	- number of lectures
+	- content duration
+
+🔍 Created scatter plots to analyze the relationship between price and engagement (reviews/subscribers).
+
+🔍 Created scatter plots to analyze the relationship between price and engagement (reviews/subscribers).
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3>Question on Time<a class="anchor-link" href="Question-on-Time">¶</a>
+</h3>
+<ul>
+<li>Published Year<ul>
+<li>Number of courses per year</li>
+<li>Distribution of subjects per year</li>
+<li>Which year has the highest number of courses</li>
+<li>What is the trend of courses per year</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+🕒 Converted timestamp strings into datetime format to allow for time-based analysis.
+
+📅 Extracted the year, month, and day from published dates to analyze trends over time.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+📈 Performed grouped analysis—for example, comparing total subscribers or profit across subjects, levels, or time periods.
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Questions on Course Title<a class="anchor-link" href="Questions-on-Course-Title">¶</a>
+</h4>
+<ul>
+<li>Course Title<ul>
+<li>What is the most frequent words in course title</li>
+<li>Longest/Shortest course title</li>
+<li>How can we build recommendation systems via title using similarity</li>
+<li>Most famous courses by number of subscribers</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+ Keyword Extraction
+
+<ul>
+<li>Rake</li>
+<li>Yakes</li>
+<li>Collection</li>
+</ul>
+
+🧠 Applied NLP techniques to clean course titles: removing stopwords, special characters, and short or irrelevant words.
+
+📝 Compared course titles before and after cleaning to understand text length and composition.
+
+🧠 Applied NLP techniques to clean course titles: removing stopwords, special characters, and short or irrelevant words.
+
+🔢 Counted the most frequently occurring words in the cleaned course titles.
+
+🧪 Used the RAKE (Rapid Automatic Keyword Extraction) algorithm to identify important phrases from the course titles.
+
+ Tokenization
+
+🧪 Used the RAKE (Rapid Automatic Keyword Extraction) algorithm to identify important phrases from the course titles.
