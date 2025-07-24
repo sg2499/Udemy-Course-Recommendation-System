@@ -140,4 +140,4 @@ def dashboard():
 
 # Main entry point of the application
 if __name__ == '__main__':
-    app.run(debug=True)  # Starts the Flask development server
+    app.run()  # Starts the Flask development server
