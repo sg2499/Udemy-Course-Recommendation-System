@@ -1,4 +1,4 @@
-# 📘 Udemy-Course-Recommendation-System with Flask & NLP
+# 📘 Udemy-Course-Recommendation-System with Streamlit & NLP
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/sg2499/Udemy-Course-Recommendation-System)
 ![GitHub stars](https://img.shields.io/github/stars/sg2499/Udemy-Course-Recommendation-System?style=social)
@@ -13,9 +13,10 @@ This repository contains a web-based **Udemy Course Recommendation System** buil
 
 ```
 📦Udemy-Course-Recommendation-System/
-├── SG_app.py                              # Main Flask app with search and dashboard routes
+├── new_app.py                             # Main Streamlit app with search and dashboard routes
 ├── dashboard.py                           # Backend analytics functions for the dashboard
 ├── udemy_course_data.csv                  # Cleaned Udemy dataset
+├── udemy_banner_streamlit.png             # Banner used in the Streamlit app
 ├── requirements.txt                       # All required Python libraries
 ├── templates/
 │   ├── index.html                         # Homepage with course search input
@@ -81,22 +82,17 @@ pip install -r requirements.txt
 ### ✅ Option 1: Using Flask CLI
 
 ```bash
-# For Windows CMD
-set FLASK_APP=SG_app.py
+# Step 1: Install required libraries
+pip install -r requirements.txt
 
-# For PowerShell
-$env:FLASK_APP = "SG_app.py"
-
-# For macOS/Linux
-export FLASK_APP=SG_app.py
-
-flask run
+# Step 2: Run the Streamlit app
+streamlit run streamlit_app.py
 ```
 
 ### ✅ Option 2: Run Directly
 
 ```bash
-python SG_app.py
+python new_app.py
 ```
 
 ---
@@ -113,9 +109,10 @@ python SG_app.py
 
 Major packages used:
 
-- `Flask==2.3.3`
-- `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
-- `neattext` for NLP
+- streamlit==1.34.0 – for building the interactive web interface
+- pandas, numpy, scikit-learn – for data processing and machine learning
+- plotly – for modern, interactive dashboard visualizations
+- neattext – for basic NLP text preprocessing
 - Full list in `requirements.txt`
 
 ---
@@ -128,4 +125,4 @@ Created with ❤️ by **Shailesh Gupta**
 
 ---
 
-> Powered by Flask · Informed by Udemy · Explained through EDA ✨
+> Powered by Streamlit · Informed by Udemy · Explained through EDA ✨
