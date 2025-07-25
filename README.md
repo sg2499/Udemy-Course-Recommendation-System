@@ -114,8 +114,11 @@ Major packages used:
 - plotly – for modern, interactive dashboard visualizations
 - neattext – for basic NLP text preprocessing
 - Full list in `requirements.txt`
-
 ---
+
+## 🌐 Live Demo
+You're welcome to explore the app by visiting the link provided below.
+👉 https://udemy-course-recommendation-system-eylsvxtfvsbreqfrrrqb2g.streamlit.app/
 
 ## 📬 Author
 
