@@ -120,6 +120,7 @@ Major packages used:
 You're welcome to explore the app by visiting the link provided below.
 
 👉 https://udemy-course-recommendation-system-eylsvxtfvsbreqfrrrqb2g.streamlit.app/
+---
 
 ## 📬 Author
 
